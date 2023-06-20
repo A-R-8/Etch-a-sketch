@@ -1,0 +1,66 @@
+.container {
+
+    
+    background-color: #2a2f48;
+    height: 10cm;
+    width: 10cm;
+    display: flex;
+    flex-wrap: wrap;
+    
+    border: solid #66fcf1;
+    
+    
+}
+h1 {
+    color: #66fcf1;
+    text-align: center;
+   
+}
+body {
+    background-image: url('./blue-linear-gradient-1920x1080-c2-0b0c10-2a2f48-a-225-f-14.png');
+    margin: 0;
+    padding: 0;
+    
+   
+}
+.box {
+   
+    margin: 0;
+    padding: 0;
+    
+    
+    outline:1px solid white;
+}
+#fname{
+    
+    color: white;
+    border: solid #66fcf1;
+    background-color: #2a2f48;
+    width: 93px;
+    text-align: center;
+    
+}
+button {
+    border: solid #66fcf1;
+    background-color:#2a2f48;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+.setGrid {
+    margin-top: 70px;
+    
+    display: flex;
+    
+    justify-content: center;
+    gap: 90px;
+    /* flex: 1;
+    margin-left: 0; */
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    height: 10cm;
+    border: white;
+    justify-content: center;
+}
